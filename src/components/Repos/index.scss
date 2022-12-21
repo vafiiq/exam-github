@@ -1,0 +1,55 @@
+.repo-wrappers {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 60vw;
+}
+
+.dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    // background-color: yellow;
+    border-radius: 50%;
+}
+
+.public {
+    border-radius: 15px;
+    border: 1px solid rgb(231, 230, 230);
+    background-color: #0d1117;
+    padding: 2px 15px;
+    border-radius: 10px;
+    &:hover{
+        border: 1px solid white;
+        background-color: #414345;
+    cursor: pointer;    }
+}
+
+.repo-right-item {
+    background-color: #0d1117;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        background-color: #414345;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    span {
+        padding-right: 10px;
+        border-right: 1px solid;
+    }
+}
+
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    // align-items: center;
+    // flex-direction: row;
+}

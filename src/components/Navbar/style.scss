@@ -1,0 +1,129 @@
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161b22;
+    color:  #f0f6fc;
+    padding: 10px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    width: 60vw;
+}
+
+.nav-right-list {
+    gap: 30px;
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.nav-input {
+    width: 270px;
+    height: 28px;
+    background-color: transparent;
+    border: 1px solid rgb(201, 194, 194);
+    outline: none;
+    border-radius: 4px;
+    text-indent: 20px;
+    color:  #f0f6fc;
+    padding: 0 22px 0 -12px;
+    transition: all .5s ease;
+    margin: 0 10px;
+    font-size: 15px;
+    &::placeholder {
+        color: white;
+    }
+
+    &:focus {
+        background-color: white;
+        width: 300px !important;
+        color: #24292f;
+        transition: all .3s ease;
+
+        &::placeholder {
+            color: black;
+        }
+
+
+    }
+}
+
+.nav-input:focus input-result {
+    opacity: 1;
+}
+
+
+.nav__item {
+    font-size: 14px;
+    font-weight: 600;
+   
+
+    p {
+        margin: 0;
+        transition: all .3s ease;
+
+        &:hover {
+            color: gray;
+        }
+    }
+}
+
+.nav-right__item {
+    span {
+        transition: all .2s ease;
+
+        &:hover {
+            color: gray;
+        }
+    }
+}
+
+.input-result {
+    width: 300px;
+    position: absolute;
+    bottom: -80px;
+    left: 0px;
+    background-color: #009EFF;
+    color: white;
+    display: inline;
+    z-index: 99999999;
+    margin: 0 10px;
+    height: 60px;
+    border-radius: 5px;
+
+    text-indent: 40px;
+    padding-top: 15px;
+}
+
+.opacity {
+    opacity: 1 !important;
+}
+
+.w {
+    position: relative;
+}
+
+.input-value {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+
+}
+
+.search-icon {
+    font-size: 20px;
+}
