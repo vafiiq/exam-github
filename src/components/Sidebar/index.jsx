@@ -11,7 +11,6 @@ const index = ({ data }) => {
     avatar_url,
     bio,
     company,
-    email,
     followers,
     following,
     location,
